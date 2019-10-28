@@ -71,7 +71,7 @@ Result:
 </style>
 
 <div class="resp-container">
-    <iframe class="testiframe" src="https://tcgriffith.github.io/xaringan_theme_example/use_master.html">
+    <iframe class="testiframe" src="/xaringan_example.html">
       Fallback text here for unsupporting browsers, of which there are scant few.
     </iframe>
 </div>

@@ -1,4 +1,4 @@
-# xaringan_gh
+# Xaringan_gh
 
 A example repo to demonstrate how to host xaringan slides on github page
 
@@ -13,15 +13,8 @@ A example repo to demonstrate how to host xaringan slides on github page
 - Setup github pages: `Settings` - `Github Pages`- `source: master branch`, (Optional: choose a jekyll theme)
 - Done, the slides can be viewed online at `https://tcgriffith.github.io/xaringan_gh/xaringan_example`
 
-```
-Old instructions.
 
-- Clone this repo to your github account.
 
-- setup github pages: `Settings` - `Github Pages`- `source: master branch`
-
-- Done! The slides can be viewed online at the url on the setting page. For example, https://tcgriffith.github.io/xaringan_gh/ is the link for this repo.
-```
 
 ## Update on 191027:
 
