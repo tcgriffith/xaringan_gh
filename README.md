@@ -11,7 +11,8 @@ A example repo to demonstrate how to host xaringan slides on github page
 - In rstudio, knit the xaringan slides.
 - Push everything to github
 - Setup github pages: `Settings` - `Github Pages`- `source: master branch`, (Optional: choose a jekyll theme)
-- Done, the slides can be viewed online at `https://tcgriffith.github.io/xaringan_gh/xaringan_example`
+- Done, the slides can be viewed online at `https://{account}.github.io/{repo_name}/{xaringan_slide_filename}`
+For example, The URL for this xaringan_example slide is at: https://tcgriffith.github.io/xaringan_gh/xaringan_example`
 
 
 
