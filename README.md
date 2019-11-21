@@ -5,7 +5,7 @@ A example repo to demonstrate how to host xaringan slides on github page
 
 ## How to use:
 
-- Create a repo with xaringan slide with the following files(Or clone this one):
+- Create a repo(Or clone this one) with xaringan slide and the following files:
     - xaringan_example.rmd, your xaringan slide
     - index.md, for the homepage of github page, see the index.md for an example.
 - In rstudio, knit the xaringan slides.
