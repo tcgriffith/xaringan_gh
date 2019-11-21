@@ -16,7 +16,7 @@ A example repo to demonstrate how to host xaringan slides on github page
 
 For example
 - The URL for this xaringan_example slide is at: https://tcgriffith.github.io/xaringan_gh/xaringan_example
-- The github page(index.md) with xaringan slide embedded. Using this method you could embed the slide in a [blogdown post](https://github.com/rstudio/blogdown) as well
+- I embedded the xaringan slide into the github page(index.md). Using this method you could embed the slide in a [blogdown post](https://github.com/rstudio/blogdown) as well.(~~Or if you are creative, embed it into another xaringan slide recursively and get your own russian doll~~
 
 
 
