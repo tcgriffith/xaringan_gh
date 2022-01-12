@@ -1,35 +1,91 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
-    <title>xaringan in Github pages</title>
+    <title>Course Outline</title>
     <meta charset="utf-8" />
-    <meta name="author" content="TC" />
+    <meta name="author" content="Montaque Reynolds" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"b748b2b7df054962a4dec12b98e36fb9","expires":1}</script>
+    <script src="libs/himalaya/himalaya.js"></script>
+    <script src="libs/js-cookie/js.cookie.js"></script>
+    <link href="libs/editable/editable.css" rel="stylesheet" />
+    <script src="libs/editable/editable.js"></script>
+    <script src="libs/fabric/fabric.min.js"></script>
+    <link href="libs/xaringanExtra-scribble/scribble.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-scribble/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30,"palette":[]}) })</script>
+    <script src="libs/peerjs/peerjs.min.js"></script>
+    <script src="libs/tiny.toast/toast.min.js"></script>
+    <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
   </head>
   <body>
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# xaringan in Github pages
-### TC
-### 2017/12/2
+# Course Outline
+## A Road Map to May
+### Montaque Reynolds
+### Saint Louis University
+### 2016/12/12 (updated: 2022-01-12)
 
 ---
 
 
-
-
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+
+
+
+
+
+
+
 
 ???
 
 Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
 
 ---
-# I am title
+class: center, middle
 
-Hello, GH pages!
+# xaringan
+
+### /ʃaː.'riŋ.ɡan/
+
+---
+class: inverse, center, middle
+
+# Get Started
+
+---
+
+# Introductions and Class Attendance 
+
+???
+
+So that I learn everyone's name in a timely manner, I will be carefully taking attendance every day. Hopefully this does not take up too much time.
+
+--
+
+# Syllabus
+
+???
+
+This will start with the purpose. What we do not ask very often however, is whether ethics and popular communicative enterprises intersect. While this will be a traditional ethics course, I have opted out of applied ethics readings, for instance on pregnancy termination, mass incarceration etc, to instead focus applied questions on popular media art forms; namely stories, songs, poems and such. Today's class, hopefully will give us both an idea of how this semester will go.
+
+--
+
+## Course Description
+
+--
+
+1. Problems and issues Surrounding Moral Discourse?
+
+???
+
+Notice how the syllabus asks how we might rationally ground moral discourse. As you will see, this often means asking whether there are principles justifying our fundamental moral beliefs. A principle is a formal claim, most likely a formally held belief: "All men are created equal" is one such example. A belief is another claim which one believes. In this context however, the belief is not as foundational as the principle. If things are going well, we will hold the belief because of other beliefs that we hold. However it is plausible that our beliefs cannot be grounded in principles. If this happens, some people think that you are not justified in holding your belief, meaning that you have no reason to hold it. As such, your moral beliefs should be grounded in moral principles. The way that you ground a principle, is that the belief has to be connected to the principle. This often means that there needs to be an unbroken line between the principle and the belief. The principle is grounds for your belief, it gives you reasons for holding your beliefs.
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -76,9 +132,25 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
-
-<script>
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
 (function() {
   var links = document.getElementsByTagName('a');
   for (var i = 0; i < links.length; i++) {
@@ -87,7 +159,23 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
   }
 })();
-</script>
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 slideshow._releaseMath = function(el) {
